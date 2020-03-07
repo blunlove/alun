@@ -1,0 +1,19 @@
+{
+  "name": "alun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "package/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blunlove/alun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blunlove/alun/issues"
+  },
+  "homepage": "https://github.com/blunlove/alun#readme"
+}
