@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/blunlove/alun/issues"
   },
-  "homepage": "https://github.com/blunlove/alun#readme"
+  "homepage": "https://github.com/blunlove/alun#readme",
+  "dependencies": {
+    "alun-utils": "1.0.0"
+  }
 }
