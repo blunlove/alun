@@ -45,7 +45,7 @@
         default: DEFAULT_COL_RULE
       }
     },
-    render() {
+    render(h) {
       return (
         <div class="al-grid-box">
           {
