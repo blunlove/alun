@@ -15,7 +15,7 @@
         v-bind="{
           placeholder: getPlaceholder('input', label),
           type: type !== 'number' ? type : undefined,
-          maxlength: type === 'textarea' ? 200 : null, ...$attrs
+          ...$attrs
         }"
         @input="change"
         v-on="filterListeners">
