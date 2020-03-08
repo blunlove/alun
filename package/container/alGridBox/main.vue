@@ -1,5 +1,5 @@
 <script>
-  import {checkType} from '@/utils';
+  import {checkType} from 'alun-utils';
   // const DEFAULT_ROW_RULE = function (item, index) {
   //   return index;
   // };

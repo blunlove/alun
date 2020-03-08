@@ -1,4 +1,4 @@
-import alForm from './src/main';
+import alForm from './src/main.vue';
 // import wordsCount from './src/wordsCount';
 const {
   Form,

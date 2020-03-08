@@ -1,4 +1,4 @@
-import controls from '../controls';
+import controls from '../../package/controls';
 function handleComponent(obj) {
   let {component, render} = obj;
   if (render) {

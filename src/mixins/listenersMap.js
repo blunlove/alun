@@ -1,4 +1,4 @@
-import { checkType } from '../../utils';
+import { checkType } from 'alun-utils';
 
 const DEFAULT_OPTION = {
   configs: 'formOptions',

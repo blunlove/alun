@@ -2,9 +2,9 @@
   "name": "alun",
   "version": "1.0.0",
   "description": "",
-  "main": "package/index.js",
+  "main": "lib/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,17 @@
   },
   "homepage": "https://github.com/blunlove/alun#readme",
   "dependencies": {
-    "alun-utils": "1.0.0"
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-stage-2": "^7.8.3",
+    "@vue/babel-plugin-transform-vue-jsx": "^1.1.2",
+    "alun-utils": "1.0.0",
+    "rollup": "^2.0.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-vue": "^5.1.6",
+    "rollup-watch": "^4.3.1",
+    "vue-template-compiler": "^2.6.11"
   }
 }
